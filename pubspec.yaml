@@ -1,0 +1,33 @@
+name: meditation_app
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  lottie: ^2.7.0
+  google_fonts: ^6.1.0
+  iconsax: ^0.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/images/
+    - assets/lottie/
